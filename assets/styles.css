@@ -11,7 +11,7 @@ body{
     font-family: Avenir-Next,Roboto,sans-serif; 
     font-size: 16px;
 }
-/* navbar */
+
 body {
     margin: 0;
   }
@@ -86,7 +86,6 @@ body {
     height: 20px;
   }
   
-/* Home-page */
 
 .home-page{
     height: 90vh;
@@ -193,7 +192,6 @@ body {
     }
 }
 
-/* monster section */
 #monster{
     padding-top: 20px;
     height:85vh;
@@ -259,7 +257,6 @@ body {
     } 
  }
 
- /* staticstics  */
 
  #statistics{
      width:100%;
@@ -311,8 +308,7 @@ body {
         grid-gap:20px;
     }
  }
- /* section-5 */
-/*  SECTIONS  */
+
 .section-awards-aw {
 	clear: both;
 	padding: 0px;
@@ -321,7 +317,7 @@ body {
 	margin: auto 100px auto 260px;
 }
 
-/*  COLUMN SETUP  */
+
 .col-aw {
 	display: block;
 	float:left;
@@ -331,16 +327,12 @@ body {
 }
 .col-aw:first-child { margin-left: 0; }
 
-/*  GROUPING  */
+
 .group-aw:before,
 .group-aw:after { content:""; display:table; }
 .group-aw:after { clear:both;}
 .group-aw { zoom:1; /* For IE 6/7 */ }
 
-/*  GRID OF THREE  */
-/*.span_3_of_3 { width: 100%; }
-.span_2_of_3 { width: 66.13%; }
-.span_1_of_3 { width: 32.26%; }*/
 
 .span_1_of_3-aw { width: 20%; }
 .span_2_of_3-aw { width: 20%; }
@@ -363,7 +355,7 @@ body {
 	text-align: left;
 }
 
-/*  GO FULL WIDTH BELOW 900 PIXELS */
+
 @media only screen and (max-width: 900px) {
 	.col-aw {  margin: 1% 0 1% 0%; padding: 0 15px 0 15px; }
 	.span_3_of_3-aw, .span_2_of_3-aw, .span_1_of_3-aw { width: 100%; }
@@ -405,7 +397,7 @@ body {
 	border-radius: 50%;
 }
 
- /* section-6 */
+ 
  #q-section{
      width:100%;
      height:76vh;
@@ -472,7 +464,7 @@ body {
     }
  }
 
- /* section-7 */
+
  * {
     box-sizing: border-box;
   }
@@ -499,7 +491,7 @@ body {
     flex: 65%;
   }
   
-  /* Responsive layout - makes a one column-layout instead of a two-column layout */
+
   @media (max-width: 900px) {
     #table-section {
         background-color: #e9e9e9;
@@ -559,7 +551,6 @@ body {
       font-weight: 600;
   }
   
- /* section-8 */
  #section-8{
      width:100%;
      height:35vh;
